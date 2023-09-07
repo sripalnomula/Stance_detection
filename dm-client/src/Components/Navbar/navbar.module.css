@@ -1,0 +1,55 @@
+.nav {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: start;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 2rem;
+  font-family: 'Courier New', monospace;
+  margin-bottom: 3rem;
+}
+.vertical{
+  margin:1px 0;
+  border-left: 2px solid #0c0b0b;
+  height: 4.5rem;
+  position:relative;
+}
+
+.nav ul {
+  padding:0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  float: left;
+  
+}
+
+.nav a {
+  padding: 1em 0.2em;
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.nav li.active {
+  background-color: #0c0b0b;
+  color: #ddd;
+
+}
+
+.nav li:hover {
+  background-color: #0c0b0b;
+  color: #ddd;
+}
+
+.socials{
+  position: absolute;
+  right:2rem;
+  top:1.5rem;
+  font-size: 2rem;
+
+}

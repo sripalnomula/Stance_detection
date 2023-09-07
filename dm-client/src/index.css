@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+html {  
+  background-image: url(../public/news_bg.jpeg);
+  background-size: contain;
+}
+
+html,body{
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  border-radius: 25px;
+  padding: 0.2em;
+  margin: 1rem;
+  background-color: #333;
+  color: #ddd;
+  margin-right: auto;
+  margin-left: auto;
+  width: 75%;
+}
+
+
